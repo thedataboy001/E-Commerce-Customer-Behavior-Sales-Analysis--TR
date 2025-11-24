@@ -1,24 +1,39 @@
-# 🛒 E-Commerce Customer Behavior and Sales Dataset
 
-## 📊 Dataset Overview
+# 🛒 E-Commerce Customer Behavior & Sales Analysis (Turkey)
 
-This comprehensive dataset contains **5,000 e-commerce transactions** from a Turkish online retail platform, spanning from January 2023 to March 2024. The dataset provides detailed insights into customer demographics, purchasing behavior, product preferences, and engagement metrics.
+## 📂 Project Overview
 
-## 🎯 Use Cases
+This project provides a comprehensive analysis of Turkish e-commerce customer behavior and sales using a rich, realistic dataset. The goal is to uncover actionable insights for business growth, customer segmentation, churn prediction, and sales optimization. The project is ideal for data science, analytics, and business intelligence learning.
 
-This dataset is perfect for:
-- **Customer Segmentation Analysis**: Identify distinct customer groups based on behavior
-- **Sales Forecasting**: Predict future sales trends and patterns
-- **Recommendation Systems**: Build product recommendation engines
-- **Customer Lifetime Value (CLV) Prediction**: Estimate customer value
-- **Churn Analysis**: Identify customers at risk of leaving
-- **Marketing Campaign Optimization**: Target customers effectively
-- **Price Optimization**: Analyze price sensitivity across categories
-- **Delivery Performance Analysis**: Optimize logistics and shipping
+**Key components:**
+- **Data Exploration & Cleaning**: Understand the structure, quality, and key statistics of the dataset.
+- **Customer Segmentation**: Use clustering (K-Means) to group customers by behavior and value.
+- **Churn Analysis**: Build predictive models to identify customers at risk of leaving.
+- **Sales & Product Analysis**: Visualize trends, category performance, and device-based behavior.
+- **Actionable Insights**: Generate business recommendations based on findings.
+
+All code and analysis are provided in Jupyter Notebooks for reproducibility and learning.
+
+
+## 📒 Notebooks in This Project
+
+- **customer_behaviour_analysis.ipynb**: Main notebook for data exploration, feature engineering, and customer segmentation (RFM, clustering, etc.).
+- **customer_chun_analysis.ipynb**: Churn analysis and prediction using machine learning (KNN, XGBoost, etc.).
+- **data_visualization.ipynb**: Visual exploration of sales, customer demographics, product categories, and trends.
+
+
+## 🎯 Project Use Cases
+
+You can use this project to:
+- Segment customers for targeted marketing
+- Predict and reduce customer churn
+- Analyze sales trends and product performance
+- Build recommendation and CLV models
+- Optimize pricing and delivery
+
 
 ## 📁 Dataset Structure
-
-The dataset contains **18 columns** with the following features:
+The dataset contains **18 columns** with detailed information on orders, customers, products, transactions, and post-purchase metrics.
 
 ### Order Information
 - **Order_ID**: Unique identifier for each order (ORD_XXXXXX format)
@@ -50,8 +65,8 @@ The dataset contains **18 columns** with the following features:
 - **Delivery_Time_Days**: Delivery duration (1-30 days)
 - **Customer_Rating**: Customer satisfaction rating (1-5 stars)
 
-## 📈 Key Statistics
 
+## 📈 Key Dataset Statistics
 - **Total Records**: 5,000 transactions
 - **Date Range**: January 2023 - March 2024 (15 months)
 - **Average Transaction Value**: ~450 TRY
@@ -67,32 +82,22 @@ The dataset contains **18 columns** with the following features:
 - ✅ Proper data types for all columns
 - ✅ Logical relationships between features
 
-## 💡 Sample Analysis Ideas
 
-1. **Customer Segmentation with K-Means Clustering**
-   - Segment customers based on spending, frequency, and recency
-   
-2. **Sales Trend Analysis**
-   - Identify seasonal patterns and peak shopping periods
-   
-3. **Product Category Performance**
-   - Compare revenue, ratings, and return rates across categories
-   
-4. **Device-Based Behavior Analysis**
-   - Understand how device choice affects purchasing patterns
-   
-5. **Predictive Modeling**
-   - Build models to predict customer ratings or purchase amounts
-   
-6. **City-Level Market Analysis**
-   - Compare market performance across different cities
+## 💡 What You'll Learn & Do
+- Clean and explore real-world e-commerce data
+- Visualize customer and sales patterns
+- Segment customers using clustering (K-Means)
+- Predict churn with machine learning (KNN, XGBoost)
+- Analyze product, device, and city-level trends
+- Generate actionable business recommendations
+
 
 ## 🛠️ Technical Details
-
 - **File Format**: CSV (Comma-Separated Values)
 - **Encoding**: UTF-8
 - **File Size**: ~500 KB
 - **Delimiter**: Comma (,)
+
 
 ## 📚 Column Descriptions
 
@@ -117,15 +122,28 @@ The dataset contains **18 columns** with the following features:
 | Delivery_Time_Days | Integer | Delivery duration | 3 |
 | Customer_Rating | Integer | Satisfaction rating | 5 |
 
-## 🎓 Learning Outcomes
 
-By working with this dataset, you can learn:
-- Data cleaning and preprocessing techniques
-- Exploratory Data Analysis (EDA) with Python/R
-- Statistical analysis and hypothesis testing
-- Machine learning model development
-- Data visualization best practices
-- Business intelligence and reporting
+## 🎓 Learning Outcomes
+By working through these notebooks, you will gain hands-on experience in:
+- Data cleaning and preprocessing
+- Exploratory Data Analysis (EDA)
+- Feature engineering for customer analytics
+- Clustering and segmentation
+- Churn prediction modeling
+- Data visualization and reporting
+## 📊 Example Analyses Performed
+
+- **Customer Segmentation**: RFM features, K-Means clustering, segment profiling
+- **Churn Prediction**: ML pipelines (KNN, XGBoost), accuracy and classification reports
+- **Sales & Product Analysis**: Trend lines, category breakdowns, device/city analysis
+- **Visualization**: Correlation heatmaps, scatterplots, histograms, time series
+## 📑 How to Use
+
+1. Open the Jupyter notebooks in this repository.
+2. Run the cells step by step to reproduce the analysis or adapt for your own use case.
+3. Use the dataset files (`ecommerce_customer_behavior_dataset.csv` and `ecommerce_customer_behavior_dataset_v2.csv`) as input.
+4. Review the code comments and markdown explanations for learning and insights.
+
 
 ## 📝 Citation
 
@@ -137,17 +155,23 @@ Turkish Online Retail Platform Data (2023-2024)
 Available on Kaggle
 ```
 
+
 ## ⚖️ License
 
 This dataset is released under the **CC0: Public Domain** license. You are free to use it for any purpose.
+
 
 ## 🤝 Contribution
 
 Found any issues or have suggestions? Feel free to provide feedback!
 
+
 ## 📞 Contact
 
 For questions or collaborations, please reach out through Kaggle.
+
+---
+
 
 ---
 
